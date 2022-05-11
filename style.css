@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+body {
+    font-size: 15pt;
+    font-family:'Lato' Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box; 
+}
+#title { 
+   background-color:#f6c324;
+   padding:7px;
+   color:black;
+   text-align: center;
+   font-family:'Lato';
+   font-weight:700;
+   box-shadow:0 5px 7px rgba(0, 0, 0, 0.3);
+   
+}
+
+#description {
+   font-size:18px;
+   text-align: center;
+   font-family:inherit;
+   font-weight:300;
+}
+
+form { 
+   background-color:#58ABE5;
+   padding: 10px 20px;
+   line-height:30px;
+   width:600px;
+   border-radius:7px;
+   margin: 0 auto;
+   border:10px solid #A9fed8;
+   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
+} 
+
+.input-form {
+   display:block;
+   margin:0;
+   padding:10px;
+   width:80%;
+   background-color: #ecf0fc;
+   border:none;
+   margin-bottom:5px;
+   border-radius:5px;
+}
+
+.details {
+   margin-bottom:10px;
+   margin-top:10px;
+   font-weight:500;
+   color:white;
+   font-size: 17px;
+   font-family:inherit;
+}
+
+.dropdown {
+   padding:10px;
+   background-color:#ecf0fc;
+   width:80%;
+   border-radius:7px;
+   display:block;
+   margin-bottom: 10px;
+}
+
+.sub-details {
+   display:inline-block;
+   margin-bottom: 10px;
+   color: white;
+   font-size: 17px;
+   font-family: inherit;
+   font-weight:500;
+}
+
+#career-path {
+   color: black;
+   margin-top:40px;
+   margin-bottom:10px;
+   font-weight:300;
+   font-family:inherit;
+   padding-top: 30px;
+   font-size:18px;
+}
+
+#qualities {
+   color:black;
+   font-size: 18px;
+   font-family: inherit;
+   font-weight: 300;
+   margin-top: 10px;
+   padding-top:10px;
+}
+
+.more-text {
+  font-size: 18px;
+  font-family:inherit;
+  color: black;
+  font-weight:300;
+  padding-bottom: 10px;
+  margin-bottom:20px;
+  
+}
+
+.button {
+   padding:10px;
+   width:380px; 
+   font-size:25px;
+   border:none;
+   background-color: #f6c324;
+   color:black;
+   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.5);
+   text-align: center;
+   margin-left: 60px;
+   font-family:'lato';
+   font-weight:500;
+   border-radius:7px;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.button:active{
+  opacity: 0.3;
+}
+
+@media only screen and (max-width:768px){
+  .title{
+    width: 100%;
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  .button{
+    width: 250px;
+    margin-left: 40px;
+  }
+}

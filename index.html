@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Survey Form</title>
+  <!-- HTML -->
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--title-->
+  <header>
+    <h1 id="title">Career Interest Survey</h1>
+    <p id="description">Complete our career Interest Survey to help you find the career best suited for you, based on your personal profile.</p>
+  </header>
+  <!-- survey form -->
+  <form id="survey-form">
+     <label for="name" id="name-label" class="details">Name</label>
+     <input type="text" id="name"  name="name" placeholder="Ijeoma" class="input-form" required>
+   
+     <label for="email" id="email-label"class="details">Email</label>
+     <input type="email" name="email" id="email" placeholder="maikellljudge23@gmail.com" class="input-form" required>
+     
+     <label for="age" id="number-label" class="details">Age</label>
+     <input type="number" name="number" id="number" placeholder="22" min="10" max="90" class="input-form" required>
+
+     <label for="dropdown" id="dropdown" class="details">Gender</label>
+     <select id="dropdown" class="dropdown">
+       <option value="male">Male</option>
+       <option value="female">Female</option>
+     </select>
+  
+    <label for="career-path" id="career-path">Career fields you are interested in:</label>
+   <br>
+   
+    <input type="radio" id="radio" name="radio" value="IT-programming" class="ball">
+    <label for="IT-programming" id="IT-programming" class="sub-details">IT-Programming</label>
+    <br>
+    
+    <input type="radio" id="radio" name="radio" value="IT-programming"class="ball">
+    <label for="marketing" id="marketing" class="sub-details">Marketing</label>
+    <br>
+    
+    <input type="radio" id="radio" name="radio" value="Psychology" class="ball">
+    <label for="psychology" id="psychology" class="sub-details">Psychology</label>
+    <br>
+    
+    <input type="radio" id="radio" name="radio" value="product-manager" class="ball">
+    <label for="product-manager" id="product-manager" class="sub-details">Product Manager</label>
+    <br>
+    
+    <label for="others" id="others" class="details">Others</label>
+    <input type="text" id="others" name="name" class="input-form">
+    
+    <label for="checkbox" id="qualities">Personal qualities:</label>
+    <br>
+    
+    <input type="checkbox" id="checkbox" value="checkbox">
+    <label for="organized" id="organized" class="details">Organized</label>
+   <br>
+   
+    <input type="checkbox" id="checkbox" value="checkbox">
+    <label for="tenacious" id="tenacious" class="details">Tenacious</label>
+    <br>
+    
+    <input type="checkbox" id="checkbox" value="checkbox">
+    <label for="methodical" id="methodical" class="details">Methodical</label>
+    <br>
+    
+    <input type="checkbox" id="checkbox" value="checkbox">
+    <label for="fast-learner" id="fast-learner" class="details">Fast Learner</label>
+    <br>
+    
+    <input type="checkbox" id="checkbox" value="checkbox">
+    <label for="Self-educated" id="self-educated" class="details">Self Educated</label>
+   <br>
+   
+    <label for="others" id="others" class="details">Others</label>
+    <input type="text" id="others" name="others" class="input-form">
+    
+    <label for="texarea" id="textarea" class="more-text">What are your career goals: </label>
+    
+    <textarea name="more-text" id="more-text" cols="40" rows="10" class="input-form">
+    </textarea>
+    <br>
+    <input type="submit" id="submit" value="submit" class="button">
+  </form>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
